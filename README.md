@@ -1,2 +1,2 @@
-# Designing-AnnaMarie
+# Made-from-Scratch
 Professional Portfolio Project
