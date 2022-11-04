@@ -1,5 +1,29 @@
+
+
+
+
 header {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     background-color: rosybrown;
-    
+    padding-block: 20;
+    box-sizing: border-box;
+}
+
+nav{
+    -ms-flex-align: stretch;
+    left: 0cm;
+    background-color: rgb(64, 165, 196);
+}
+main {
+    display: flex;
+}
+.mywork {
+    box-sizing: border-box;
+    flex: ;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
 }
