@@ -19,7 +19,7 @@ main {
 }
 .mywork {
     box-sizing: border-box;
-    flex: ;
+    flex: 7;
     background-color: white;
     padding: 20px;
     display: flex;
