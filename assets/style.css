@@ -12,18 +12,25 @@ header {
 nav{
     -ms-flex-align: stretch;
     left: 0cm;
-    background-color: rgb(64, 165, 196);
+    background-color: rgb(27, 82, 99);
 }
 main {
     display: flex;
 }
 .mywork {
     box-sizing: border-box;
-    flex: 7;
+    flex: 50%;
     background-color: white;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-   
+    justify-content: right;
+}
+.mywork---img{
+    width:100px}
+
+about-me{
+    box-sizing: border-box;
+    flex: 100%; 
+    display: block;
 }
