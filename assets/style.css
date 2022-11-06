@@ -3,34 +3,94 @@
 
 
 header {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    background-color: rosybrown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25;
+    background-color: rgb(221, 41, 41);
     padding-block: 20;
     box-sizing: border-box;
 }
-
-nav{
+h1{
+    text-align: left;
+}
+nav {
+    font-family: cursive;
+    text-align: right;
     -ms-flex-align: stretch;
-    left: 0cm;
-    background-color: rgb(27, 82, 99);
+    background-color:rosybrown;
 }
-main {
-    display: flex;
-}
-.mywork {
-    box-sizing: border-box;
-    flex: 50%;
-    background-color: white;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-}
-.mywork---img{
-    width:100px}
 
-about-me{
+body{
+    text-align: center;
+    background: no-repeat center/100% url(../../../../../../../../assets/20210731_roses.jpg);
+}
+#me:hover{
+    animation-name: fadeInOut;
+    animation-duration: 5s;
+    animation-iteration-count: 2; 
+}
+
+.about-me{
+    width: 100%;
+    height: 430px;
+    border: 10px solid rgb(221, 41, 41);
+    background-color: rgb(218, 168, 168);
     box-sizing: border-box;
     flex: 100%; 
     display: block;
+}
+
+#me{
+    position: relative;
+    width: 250px;
+    height: auto;
+    margin-left: 30px;
+    border: 5px solid rgb(221, 41, 41);   
+}
+p {
+    display: block;
+    position:relative;
+    
+}
+
+.my-work {
+    width: 100%;
+    height: 700px;
+    border: 10px solid rgb(221, 41, 41);
+    background-color: rgb(218, 168, 168);
+    box-sizing: border-box;
+    flex: 100%;
+    display: block;
+    padding: auto;
+}
+#Seo {
+    max-width: 60%;
+    height: auto; 
+}
+
+#my-work2, #my-work3 {
+    flex:100%;
+    width: 923.5px;
+    height: 500px;
+    border: 10px solid rgb(221, 41, 41);
+    background-color: rgb(218, 168, 168);
+}
+#my-work2{
+    float: left;
+}
+
+#store{
+    max-width: 80%;
+    height: 500; 
+}
+
+#my-work3{
+    float: right;
+}
+#tbd{
+    max-width: 40%;
+    height: 500; 
+}
+
+#contact-me{
+    text-align: left;
 }
