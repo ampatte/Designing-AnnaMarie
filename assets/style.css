@@ -84,6 +84,7 @@ p {
 }
 
 #my-work3{
+    display: inline;
     float: right;
 }
 #tbd{
