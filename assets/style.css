@@ -69,7 +69,7 @@ p {
 
 #my-work2, #my-work3 {
     flex:100%;
-    width: 923.5px;
+    width: 48%;
     height: 500px;
     border: 10px solid rgb(221, 41, 41);
     background-color: rgb(218, 168, 168);
@@ -92,5 +92,11 @@ p {
 }
 
 #contact-me{
+    display: block;
+    flex-shrink: 0;
     text-align: left;
+    height: 70px;
+    margin-bottom: 0px;
+    padding-bottom:0;
+    float: bottom;
 }
