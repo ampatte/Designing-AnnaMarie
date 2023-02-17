@@ -21,7 +21,7 @@ nav {
 
 body{
     text-align: center;
-    background: no-repeat center/100% url(../../../../../../../../assets/20210731_roses.jpg);
+    background: repeat center/100% url(../../../../../../../../assets/20210731_roses.jpg);
 }
 #me:hover{
     animation-name: fadeInOut;
@@ -67,29 +67,34 @@ p {
     height: auto; 
 }
 
-#my-work2, #my-work3 {
+#my-work2, #my-work3, #my-work4, #my-work5 {
     flex:100%;
     width: 48%;
     height: 500px;
     border: 10px solid rgb(221, 41, 41);
     background-color: rgb(218, 168, 168);
 }
-#my-work2{
+#my-work2,#my-work4{
     float: left;
 }
 
 #store{
     max-width: 80%;
-    height: 500; 
 }
 
-#my-work3{
+#projectOne{
+    width: 80%;
+}
+#my-work3, #my-work5{
     display: inline;
     float: right;
 }
 #tbd{
-    max-width: 40%;
-    height: 500; 
+    max-width: 40%; 
+}
+
+#idear{
+    max-width: 25%; 
 }
 
 #contact-me{
